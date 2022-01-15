@@ -202,6 +202,7 @@ nav ul li a:hover{
 .container-principal-3{
     display: flex;
     width: 100%;
+    padding-top: 80px;
 }
 
 /*CONTENEDOR DERECHO*/
@@ -233,6 +234,7 @@ margin-top: 30px;
 
 .container-right-3 > div > p{
     font-family: mulish;
+    color: #56565f;
 }
 
 /*CONTENEDOR IZQUIERDO*/
@@ -288,4 +290,16 @@ margin-top: 30px;
     position: absolute;
     left: 195px;
     top: 430px;
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: #0d0d0e;
+    margin-top: 100px;
+    color: rgb(151, 145, 145);
+    text-align: center;
+    font-family: mulish;
+    font-size: 13px;
+    padding-top: 3%;
 }
