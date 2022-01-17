@@ -31,6 +31,7 @@ header h1 {
     font-size: 1.5rem;
 }
 
+
 nav ul {
     display: flex;
 }
@@ -207,23 +208,28 @@ nav ul li a:hover{
 
 /*CONTENEDOR DERECHO*/
 .container-right-3{
-    width: 90%;   
-   
+    width: 90%;
     display: flex; 
     flex-wrap: wrap;    
     text-align: center;
     margin-top: 30px;
     margin-right: 90px;
-
-    
-     
 }
-.container-right-3 > div{
 
+/*ICONOS*/
+.skill > div > i{
+    font-size: 4rem;
+    background: -webkit-linear-gradient(#463AE3, #872BDC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+
+.container-right-3 > div{
  height: 200px;
  width: 40%;
  margin-left: 50px;
-margin-top: 30px;
+ margin-top: 30px;
 }
 
 .container-right-3 > div > h2{

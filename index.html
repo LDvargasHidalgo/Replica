@@ -16,9 +16,10 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
         rel="stylesheet" />
+    <!--ICONOS DE BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Replica</title>
     <link rel="stylesheet" href="/CSS/style.css">
-
 </head>
 
 <body>
@@ -27,19 +28,18 @@
         <nav>
             <h1>Mi réplica web</h1>
             <ul class="menu-box">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Notas</a></li>
-                <li><a href="#">Aprendizaje</a></li>
-                <li><a class="btn-feedback" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                            fill="currentColor" class="bi bi-chat-text-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
-                        </svg> <b>Enviar Feedback</b></a></li>
+                <li><a id="begin" class="new_menu" href="#inicio">Inicio</a></li>
+                <li><a id="notes" class="" href="#notas">Notas</a></li>
+                <li><a id="learning" href="#aprendizaje">Aprendizaje</a></li>
+                <li><a id="feedback" class="btn-feedback" href="https://educamas.com.co/contacto/" target="_blank"><i
+                            class="bi bi-chat-text-fill"></i> <b>Enviar Feedback</b></a></li>
             </ul>
+
         </nav>
+
     </header>
 
-    <main class="container-principal">
+    <main id="inicio" class="container-principal">
         <div class="container-left">
             <h2>!Muéstranos tu talento programando!</h2>
             <p>Esta es tu oportunidad para que nos deslumbres y nos hagas sentir orgulloso de que lo puedes hacer una
@@ -62,11 +62,13 @@
             </div>
         </div>
     </main>
-    <section class="page-2">
+    <!-- PAGINA 2 NOTAS-->
+    <section id="notas" class="page-2">
         <div class="container-ahead">
             <p>Y toma nota...<br>De lo que seguirás aprendiendo.</p>
             <br><br>
-            <a class="btn-feedback" href="#"><b>Prográmate Educamás</b></a></li>
+            <a class="btn-feedback" href="https://educamas.com.co/programate/" target="_blank"><b>Prográmate
+                    Educamás</b></a></li>
         </div>
         <div class="background-image">
             <img src="/image/fondo-pag-2.jpg" alt="">
@@ -74,7 +76,9 @@
         <div class="transparent">
         </div>
     </section>
-    <section class="container-principal-3">
+
+    <!--PAGINA 3 SKILL-->
+    <section id="aprendizaje" class="container-principal-3 ">
         <div class="container-left-3">
             <div class="cell-3">
                 <img src="/image/celular.png" alt="">
@@ -87,28 +91,28 @@
             </div>
             <div class="x-3">
                 <h2>x</h2>
-            </div>  
+            </div>
             <div class="point-3">
             </div>
         </div>
-        <div class="container-right-3">
+        <div class="container-right-3 skill">
             <div>
-                <img src="/image/cell-icon.png" alt="">
+                <i class="bi bi-phone"></i>
                 <h2>Hacer páginas responsive</h2>
                 <p>Aprenderás a crear páginas ajustables a los diferentes tamaños de los dispositivos.</p>
             </div>
             <div>
-                <img src="/image/frameworks-icon.png" alt="">
+                <i class="bi bi-window"></i>
                 <h2>Frameworks</h2>
                 <p>Aprenderás la uilidad de los frameworks y cómo utilizarlos.</p>
             </div>
             <div>
-                <img src="/image/Portfolio-icon.png" alt="">
+                <i class="bi bi-envelope"></i>
                 <h2>Crea tu portafolio</h2>
                 <p>Aprenderás a hacer un portafolio atractivo y profesional.</p>
             </div>
             <div>
-                <img src="/image/fullstack-icon.png" alt="">
+                <i class="bi bi-patch-check"></i>
                 <h2>Desarrollador Fullstack</h2>
                 <p>Y al final serás un excelente.</p>
             </div>
@@ -119,9 +123,7 @@
         <br>
         <h3>Términos - Codiciones - Educamás</h3>
     </footer>
-
-
-
+    <script type="text/javascript" src="/JS/project.js"> </script>
 </body>
 
 </html>
