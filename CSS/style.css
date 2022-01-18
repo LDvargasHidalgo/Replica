@@ -17,7 +17,7 @@ nav {
 }
 header{
     box-shadow: 0 0 8px rgb(216, 192, 192);
-    height: 65px;
+    height: 4.0625rem;
     width: 100%;
     font-family: "mulish";
     background:#ffffff;
@@ -44,12 +44,12 @@ nav ul li a {
 .btn-feedback{
     cursor: pointer;
     color: #e4f1ed;
-    font-size: 15px;
-    padding: 10px 30px;
-    border-radius: 50px;
+    font-size: 0.9375rem;
+    padding: 0.625rem 1.875rem;
+    border-radius: 3.125rem;
     background:#2937f0;  
-    height: 40px;
-    margin-top: 20px;
+    height: 2.5rem;
+    margin-top: 1.25rem;
     font-family: "mulish";
 }
 nav ul li a:hover{
@@ -60,32 +60,36 @@ nav ul li a:hover{
     color: #e4f1ed;
     background: #0d0d0e;
 }
+.active{
+    color:blue;
+    font-size: 1.125rem;
+}
 /*main*/
 
 .container-principal{
     width: 80%;   
     display: flex;
-    margin: 20px 10%;
+    margin: 1.25rem 10%;
 }
 /*cONTENEDOR IZQUIERDO*/
 .container-left{
     width: 50%;   
     background: #ffff;
-    margin-top: 30px;
-    padding: 30px;
+    margin-top: 1.875rem;
+    padding: 1.875rem;
     
 }
 
 .container-left > h2{
    font-family: "newsreader";
    font-size: 80px;
-   padding: 40px 5px 15px 0;
+   padding: 2.5rem 0.3125rem 0.9375rem 0;
 }
 
 .container-left > p{
     font-family: "mulish";
-    font-size: 20px;
-    padding: 20px 5px 15px 0;
+    font-size: 1.25rem;
+    padding: 1.25rem 0.3125rem 0.9375rem 0;
     color: rgb(142, 160, 160);
     justify-content: justify;
  }
@@ -96,80 +100,80 @@ nav ul li a:hover{
      position: relative;
  }
  .cell > img {
-     width: 220px;
+     width: 13.75rem;
      height: auto;
      position: absolute;
-     top: 70px;
-     left:180px ;
+     top: 4.375rem;
+     left:11.25rem ;
      z-index: 3; /*para que tome la posicion por encima del video*/
  }
 
  .video > video {
-    width: 200px;
+    width: 12.5rem;
     height: auto;
     position: absolute;
-    top: 70px;
-    left:190px;  
+    top: 4.375rem;
+    left:11.875rem;  
     border-radius: 24px;
     z-index: 2;
  }
 
  .circle{
-    width: 350px;
-    height: 350px;
+    width: 21.875rem;
+    height: 21.875rem;
     background: linear-gradient(315deg, #fa34dc 0, #d132d1 25%, #a42ec1 50%, #7829ae 75%, #4e259d 100%);
     border-radius: 50%;
     position: absolute;
-    top: 120px;
-    left:120px;  
+    top: 7.5rem;
+    left:7.5rem;  
     z-index:1;  
 }
 
 .x-1 {
     color: #2937f0;
      font-family: 'Dongle', sans-serif;
-     font-size: 30px;
+     font-size: 1.875rem;
      position: absolute;
-     top: 420px;
-     left: 110px;
+     top: 26.25rem;
+     left: 6.875rem;
 }
 
 .point{
-    width: 10px;
-    height: 10px;
+    width: 0.625rem;
+    height: 0.625rem;
     background-color:#2937f0;
     border-radius: 50%;
     position: absolute;
-    left: 500px;
-    top: 150px;
+    left: 31.25rem;
+    top: 9.375rem;
 }
 
 /*Pag-2*/
 
 /*fondo*/
 .background-image > img{
-    margin-top: 30px;
+    margin-top: 1.875rem;
     width: 100%;
-    height: 590px;
+    height: 36.875rem;
     z-index: 1;
 }
 
 .page-2{
     position: relative;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .container-ahead{
     
  position: absolute;
- top:220px; 
- width: 650px;
+ top:13.75rem; 
+ width: 40.625rem;
  height: auto;
- margin-left: 70px;
+ margin-left: 4.375rem;
 }
 
 .container-ahead > p{
-    font-size: 80px;
+    font-size: 5rem;
     font-family: newsreader;
     color: #ffffff;
     position: absolute;
@@ -181,10 +185,10 @@ nav ul li a:hover{
     font-family: mulish;   
     color: #ffffff;
     background: transparent;
-    border: 1px solid white;
+    border: 0.0625rem solid white;
     position: absolute;
     z-index: 3;
-    top: 245px;
+    top: 15.3125rem;
     
 
 }
@@ -193,8 +197,8 @@ nav ul li a:hover{
     position: absolute;
     background: rgba(12, 0, 0, 0.5);
     width: 100%;
-    height: 590px;
-    top: 31px;   
+    height: 36.875rem;
+    top: 1.9375rem;   
 }
 
 
@@ -203,7 +207,7 @@ nav ul li a:hover{
 .container-principal-3{
     display: flex;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 5rem;
 }
 
 /*CONTENEDOR DERECHO*/
@@ -212,8 +216,8 @@ nav ul li a:hover{
     display: flex; 
     flex-wrap: wrap;    
     text-align: center;
-    margin-top: 30px;
-    margin-right: 90px;
+    margin-top: 1.875rem;
+    margin-right: 5.625rem;
 }
 
 /*ICONOS*/
@@ -226,15 +230,15 @@ nav ul li a:hover{
 
 
 .container-right-3 > div{
- height: 200px;
+ height: 12.5rem;
  width: 40%;
- margin-left: 50px;
- margin-top: 30px;
+ margin-left: 3.125rem;
+ margin-top: 1.875rem;
 }
 
 .container-right-3 > div > h2{
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 1.875rem;
+    margin-bottom: 0.625rem;
     font-family: kanit;
 }
 
@@ -252,60 +256,62 @@ nav ul li a:hover{
 
 /*CELULAR PAG-3*/
 .cell-3 > img{
-    width: 220px;
+    width: 13.75rem;
     height: auto;
     position: absolute;
-    top: 50px;
-    left:240px ;
+    top: 3.125rem;
+    left:15rem ;
     z-index: 3;
 }
 .video-3 > video {
-    width: 200px;
+    width: 12.5rem;
     height: auto;
     position: absolute;
-    top: 50px;
-    left:250px;  
-    border-radius: 24px;
+    top: 3.125rem;
+    left:15.625rem;  
+    border-radius: 1.5rem;
     z-index: 2;
  }
  .circle-3{
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     background: linear-gradient(315deg, #fa34dc 0, #d132d1 25%, #a42ec1 50%, #7829ae 75%, #4e259d 100%);
     border-radius: 50%;
     position: absolute;
-    top: 150px;
-    left:150px;  
+    top: 9.375rem;
+    left:9.375rem;  
     z-index:1;  
 }
 
 .x-3{
     color: #2937f0;
     font-family: 'Dongle', sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     position: absolute;
-    top: 50px;
-    left: 480px; 
+    top: 3.125rem;
+    left: 30rem; 
 }
 
 .point-3{
-    width: 13px;
-    height: 13px;
+    width: 0.8125rem;
+    height: 0.8125rem;
     background-color:#2937f0;
     border-radius: 50%;
     position: absolute;
-    left: 195px;
-    top: 430px;
+    left: 12.1875rem;
+    top: 26.875rem;
 }
 
 footer{
     width: 100%;
-    height: 130px;
+    height: 8.125rem;
     background-color: #0d0d0e;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     color: rgb(151, 145, 145);
     text-align: center;
     font-family: mulish;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding-top: 3%;
 }
+
+
